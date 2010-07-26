@@ -1,0 +1,40 @@
+<html>
+<head>
+<center>Flumble!</center>
+</head>
+<body>
+
+<script type="text/javascript">
+
+var i,j,folder;
+folder="/home/karthik/Images/cropped";
+i=0,j=0;
+var file=new String();
+
+while(i<=4)
+{
+	j=0;
+	document.write("<center>");
+	while(j<=4)
+	{
+		file=folder+ String(j)+String(i);
+		//document.write(file);
+		
+		document.write("<img src = ",file,">");
+		j++;	
+	}
+	i++;
+	document.write("</center>");
+}	
+
+
+
+
+
+
+
+</script>
+
+</body>
+
+</html>
